@@ -1,25 +1,40 @@
 @import "header";
 @import "variables";
 
-html{
-    font-size: 100%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-*,*::before, *::after {
-    box-sizing: inherit;
+main {
+    font-family:"Hebbo", sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    background:url(/img/grl.png);
+    background-size: cover;
+    padding: 0rem 5rem;
 }
 
 nav {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     min-height: 10vh;
 
     
  &_links  {
-        display: flex;
-        list-style: none;
-
+        display: flex;  
     }
+
+  li {
+    color: $black;
+    list-style: none;
+    padding-left: 10rem;
+    font-size: 1.5rem;
+    font-family:"Hebbo", sans-serif;
+    
+  }
   }
