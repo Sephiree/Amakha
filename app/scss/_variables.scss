@@ -8,6 +8,11 @@ $lavander: #9577ff;
 $darkblue: hsl(233, 26%, 24%);
 
 
+@mixin bordered ($color, $width) {
+
+    border: $width solid $color;
+
+}
 
 
 

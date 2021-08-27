@@ -1,6 +1,7 @@
 @import "variables";
 
 nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,16 +21,18 @@ nav {
     .nav-links {
         display: flex;
         list-style: none;
+      
 
         .nav-link {
 
-            a{
-                margin: .2rem;
+            a {
+                margin: .1rem;
                 padding: 1rem .5rem;
             }
 
             a:hover {
-                background: $darkblue;
+                    
+                background: $lavander;
             }
         }
     }
@@ -38,8 +41,8 @@ nav {
         position: relative;
         padding: 26px 10px;
         cursor: pointer;
-        z-index: 1; 
         display: none;
+        z-index: 1; 
 
 
         &__line {
@@ -47,8 +50,9 @@ nav {
             display: block;
             position: relative;
             background: black;
-            height: 2px;
-            width: 20px;
+            z-index: 1; 
+            height: 5px;
+            width: 25px;
             border-radius: 4px;
             transition: background .8s ease;
 
@@ -59,7 +63,7 @@ nav {
                 height: 100%;
                 width: 100%;
                 border-radius: 4px;
-                background: gray;
+                background: $darkred;
                 transition: background .8s ease;
 
             }
