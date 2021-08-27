@@ -1,14 +1,17 @@
 @media screen and (max-width:767px) {
     nav {
+        
         .menu-icon {
             display: block;
         }
+
         .nav-links {
             position: absolute;
+            z-index: 2;
+            flex-direction: column;
             top: 0;
             left: 0;
             opacity: 1;
-            flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
             padding: 10rem 0;
@@ -17,10 +20,8 @@
             font-size: 2rem;
             color: $white;
             background: $darkblue;
-           // transition: 
-                    //opacity .8s .5s;
-                    //clip-path: 1s .5s;
-           // clip-path: circle (200px at top right);
+            clip-path: circle (200px to top right);
+          
         }
     }
 }
