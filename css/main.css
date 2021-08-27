@@ -71,10 +71,7 @@ nav {
     height: 100vh;
     font-size: 2rem;
     color: #ffffff;
-    background: #2d314d;
-    transition: opacity .8s .5s;
-    clip-path: 1s .5s;
-    clip-path: circle 200px at top right; } }
+    background: #2d314d; } }
 
 * {
   margin: 0;
