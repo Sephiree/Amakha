@@ -1,7 +1,6 @@
 {
-  "name": "amkpro",
+  "name": "npm-watch",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss app/scss/style.scss css/main.css",
@@ -13,5 +12,15 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sephiree/Amakha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sephiree/Amakha/issues"
+  },
+  "homepage": "https://github.com/Sephiree/Amakha#readme",
+  "description": ""
 }

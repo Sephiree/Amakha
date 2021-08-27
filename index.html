@@ -2,34 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Perfumería de importación. Imitación de calidad, hilos base de perfumería original, duración de fragancia de 24hrs o más, garantizada" content>
+    <meta title="Amakha. Perfumería de importación">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-
-<!--Styles-->
-<link rel="stylesheet" href="/css/main.css">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!------>
+   
+    <!--Styles-->
+    <link rel="stylesheet" href="/css/main.css">
 
     <title> Perfumes Amakha </title>
 
+    <!--PROBLEMAS: Titulo inicial sobre menú responsive, menú hamburguesa no aparecen 2 lineas-->
 </head>
 <body>
     <main>
         <section class="landing">
+
+            
             <nav>
-            <h1 id="logo"> <img src="img/amk.png" alt="amk"> </h1>
-            <ul class="nav_links">
-            <li> Inicio </li>
-            <li> Caballero </li>
-            <li> Dama </li>
-            <li> Contacto </li>
-        </ul>
-    </nav>
-        <h2 class="big-text"> Consiéntete </h2>
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="menu-icon__line"></span>
+                </label>
+        
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a href="">Inicio</a>
+                </li>
+                <li class="nav-link">
+                    <a href=""> Hombre </a>
+                </li>
+                <li class="nav-link">
+                    <a href=""> Mujer </a>
+                </li>
+                <li class="nav-link">
+                    <a href=""> Contacto </a>
+                </li>
+            </ul>
+        </nav>
+        
+
+           
+    <div class="huge">
+        <h2 class="big-text"> AMAKHA </h2>
+    </div>
+
         </section>
     </main>
     <div class="intro">
@@ -37,9 +63,9 @@
             <h1 class="hide">
                 <span class="text"> Mímate </span>
             </h1>    <h1 class="hide">
-                <span class="text"> Quiérete </span>
+                <span class="text"> Consiéntete  </span>
             </h1>    <h1 class="hide">
-                <span class="text"> por bajo costo  </span>
+                <span class="text"> Quiérete  </span>
             </h1>
         </div>
     </div>
@@ -53,7 +79,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
     integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
     crossorigin="anonymous"> </script>
-  <script src="./app.js"></script></script>
+  <script src="/app/js/app.js"></script></script>
   
 </body>
 </html>
