@@ -18,6 +18,12 @@ tl.to ('.text', { y: "0%",delay: 0.25, duration: 1, stagger: 0.25 } );
 tl.to ('.slider', { y: "-100%", duration:1.5, delay: 0.5 } );
 tl.to ('.intro', { y: "-100%", duration:1} ,"-=1.25");
 
+var slideIndex = 0;
+showImageSlider();
+function showImageSlider()
+
+
+
 
 
 
