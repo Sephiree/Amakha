@@ -212,7 +212,8 @@ main {
     color: white;
     text-shadow: 2px 2px #990000;
     padding: 1.6rem;
-    border-radius: 20px 0; }
+    border-radius: 20px 0;
+    min-width: 250px; }
     .huge .big-text::before, .huge .big-text::after {
       content: '';
       position: absolute;
@@ -259,4 +260,15 @@ main {
     transform: translateY(100%);
     display: inline-block; }
 
-/* Slider */
+/* Perfumes de Mujer*/
+.slider-box {
+  margin: 20px;
+  height: 350px;
+  width: 250px;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
