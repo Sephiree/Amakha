@@ -13,9 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!----->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <!---->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -34,43 +42,43 @@
 <body>
 
 <header id="home" class="header">
-  <nav class="nav">
+  <nav class="nav fix-nav">
     <div class="navigation container">
       <div class="logo">
         <h1>Amakha</h1>
+     </div>
+
+ <div class="menu">
+    <div class="top-nav">
+      <div class="logo">
+        <h1>Amakha</h1>
+      </div>
+      <div class="close">
+        <i class="bx bx-x"></i>
+      </div>
       </div>
 
-      <div class="menu">
-        <div class="top-nav">
-          <div class="logo">
-            <h1>Amakha</h1>
-          </div>
-          <div class="close">
-            <i class="bx bx-x"></i>
-          </div>
-        </div>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#" class="nav-link scroll-link"> Inicio </a>
+      </li>
+      <li class="nav-item">
+        <a href="Mujer.html" class="nav-link scroll-link"> Mujer </a>
+      </li>
+      <li class="nav-item">
+        <a href="Hombre.html" class="nav-link scroll-link"> Hombre </a>
+      </li>
+      <li class="nav-item">
+        <a href="Contacto.html" class="nav-link scroll-link"> Contacto </a>
+      </li>
+      <li class="nav-item">
+        <a href="Cart.html" class="nav-link.icon scroll-link"><i class='bx bx-cart'></i></a>
+      </li>
+    </ul>
+  </div>
 
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link scroll-link"> Inicio </a>
-          </li>
-          <li class="nav-item">
-            <a href="Hombre.html" class="nav-link"> Hombre </a>
-          </li>
-          <li class="nav-item">
-            <a href="Mujer.html" class="nav-link scroll-link"> Mujer</a>
-          </li>
-          <li class="nav-item">
-            <a href="Contacto.html" class="nav-link scroll-link"> Contacto </a>
-          </li>
-          <li class="nav-item">
-            <a href=" # " class="nav-link.icon"><i class='bx bx-cart'></i></a>
-          </li>
-        </ul>
-      </div>
-
-      <a href=" # " class="cart-icon">
-        <i class='bx bx-cart'></i>
+  <a href=" # " class="cart-icon">
+     <i class='bx bx-cart'></i>
       </a>
 
       <div class="hamburger">
@@ -81,7 +89,7 @@
 
 <!--Hero-->
 
-<img src="img/banner1.png" alt="Banner" class="hero-img">
+<img src="img/banner1.png" alt="Banner" class="hero-img" min-height="100%">
 
 <div class="hero-content">
   <h2>
@@ -89,7 +97,7 @@
     <h1>
       <span> Mímate con lo mejor </span>
     </h1>
-    <a href="#" class="btn"> Catálogo </a>
+    <a href="Mujer.html" class="btn"> Catálogo </a>
   </div>
  </header>
 
@@ -101,7 +109,7 @@
         <div class="dotted">
           <div class="content">
             <h2>
-              Perfumes para dama
+              Damas
             </h2>
             <h4> Las mejores fragancias</h4>
           </div>
@@ -112,29 +120,201 @@
         <div class="dotted">
           <div class="content">
             <h2>
-              Perfumes para dama
+              Caballeros
             </h2>
-            <h4> Las mejores fragancias</h4>
+            <h4> Los mejores precios</h4>
           </div>
         </div>
-        <img src="img/alon1.png" alt="alone1">
+        <img src="img/male.png" alt="male">
       </div>
       <div class="advert-box">
         <div class="dotted">
           <div class="content">
-            <h2>
-              Perfumes para dama
+            <h2 class="promo">
+            Ofertas de Verano
             </h2>
-            <h4> Las mejores fragancias</h4>
+            <h4> ¡Arma tu paquete! </h4>
           </div>
         </div>
-        <img src="img/alon1.png" alt="alone1">
-      </div>
+        <img src="img/promo1.png" alt="promo">
+      </div>  
     </div>
   </section>
-</main>
+  
+  <!--Productos-->
 
-    
+ <section class="section featured">
+   <div class="title">
+     <h1> ¿Ya decidiste el tuyo? </h1>
+   </div>
+<div class="product-center container">
+
+<div class="product">
+   <div class="product-header">
+     <img src="img/F/F1.jpg" alt="F1">
+      <ul class="icons">
+       <span><i class="bx bx-heart"></i></span>
+       <span><i class="bx bx-cart"></i></span>
+     </ul>
+   </div>
+   <div class="product-footer">
+         <a href="">
+           <h3> 521 Sexy </h3>
+     </a>
+  <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+  </div>
+      <h4 class="price">$700</h4>
+     </div>
+   </div>
+   <div class="product">
+  <div class="product-header">
+    <img src="img/F/F2.jpg" alt="F2">
+    <ul class="icons">
+      <span><i class="bx bx-heart"></i></span>
+      <span><i class="bx bx-cart"></i></span>
+    </ul>
+  </div>
+  <div class="product-footer">
+    <a href="">
+      <h3> 521 VIP </h3>
+    </a>
+
+  <div class="rating">
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+    </div>
+    <h4 class="price">$700</h4>
+  </div>
+  </div>
+  <div class="product">
+    <div class="product-header">
+      <img src="img/F/F3.jpg" alt="F3">
+      <ul class="icons">
+     <span><i class="bx bx-heart"></i></span>
+     <span><i class="bx bx-cart"></i></span>
+   </ul>
+ </div>
+ <div class="product-footer">
+   <a href="">
+     <h3> 521 Rose VIP </h3>
+     </a>
+ 
+     <div class="rating">
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+     </div>
+     <h4 class="price">$700</h4>
+   </div>
+ </div>
+  <div class="product">
+   <div class="product-header">
+     <img src="img/M/M1.jpg" alt="M1">
+     <ul class="icons">
+       <span><i class="bx bx-heart"></i></span>
+       <span><i class="bx bx-cart"></i></span>
+     </ul>
+   </div>
+   <div class="product-footer">
+     <a href="">
+       <h3> 521 Men </h3>
+     </a>
+ 
+     <div class="rating">
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+       <i class="bx bxs-star"></i>
+     </div>
+     <h4 class="price">$700</h4>
+   </div>
+ </div>
+  <div class="product">
+   <div class="product-header">
+     <img src="img/M/M2.jpg" alt="M2">
+     <ul class="icons">
+       <span><i class="bx bx-heart"></i></span>
+       <span><i class="bx bx-cart"></i></span>
+     </ul>
+   </div>
+  <div class="product-footer">
+    <a href="">
+      <h3> 521 VIP men </h3>
+    </a>
+
+  <div class="rating">
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+  </div>
+  <h4 class="price">$700</h4>
+  </div>
+ </div> 
+ <div class="product">
+  <div class="product-header">
+      <img src="img/M/M3.jpg" alt="M3">
+      <ul class="icons">
+        <span><i class="bx bx-heart"></i></span>
+        <span><i class="bx bx-cart"></i></span>
+      </ul>
+    </div>
+    <div class="product-footer">
+    <a href="">
+      <h3> All Sexes </h3>
+    </a>
+
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+    </div>
+    <h4 class="price">$700</h4>
+    </div>
+    </div>      
+  </div>
+  </section>
+
+  <!--Banner de productos-->
+
+  <section class="section">
+    <div class="product-banner">
+      <div class="left">
+        <img src="img/both.png" alt="both">
+      </div>
+      <div class="right">
+        <div class="content">
+          <h2><span class="discount"> 20% </span> Oferta!</h2>
+          <h1>
+            <span>Arma</span>
+            <span>tu Kit </span>
+          </h1>
+          <a href="#" class="btn"> Comprar </a>
+        </div>
+      </div>
+    </div>
+</section>
+</main>
+ <!-- Footer -->
+ <footer class="footer">
+    <h3>Danahé Martínez</h3> 
+   <h4>Proyecto Final CoderHouse</h4>
+ </footer>
+ <!-- End Footer -->
 
    
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
