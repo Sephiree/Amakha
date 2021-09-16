@@ -350,7 +350,7 @@ li {
 
 
 .section {
-    padding: 3rem 0 3rem 0;
+    padding: 4rem 0 0 0;
 }
 
 .advert-center {
@@ -601,6 +601,7 @@ justify-content: space-between;
   grid-template-columns: 1fr 1fr;
   height: 45rem;
   background-color: $blue;
+  bottom: 5%;
 
 
 .left img {
@@ -608,22 +609,23 @@ justify-content: space-between;
   height: 100%;
   
   @include portada;
-  
+}
+
+.content h2 {
+  color: $orange;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  right: 5%;
 }
 
  .right {
   align-self: center;
   text-align: center;
-  padding: 1.6rem;
+  padding: 1rem;
   }
 }
 
-.product-banner .content h2 {
-  color: $orange;
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
 
 .content .discount {
   color: $yellow;
@@ -698,7 +700,7 @@ justify-content: space-between;
 
 .footer {
   background-color: $black;
-  line-height: 2rem;
+  line-height: 3rem;
 
   h3,h4 {
     text-align: center;
